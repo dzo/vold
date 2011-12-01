@@ -61,10 +61,6 @@ private:
     AsecIdCollection      *mActiveContainers;
     bool                   mDebug;
 
-    // for adjusting /proc/sys/vm/dirty_ratio when UMS is active
-    int                    mUmsSharingCount;
-    int                    mSavedDirtyRatio;
-    int                    mUmsDirtyRatio;
     int                    mVolManagerDisabled;
 
 public:
